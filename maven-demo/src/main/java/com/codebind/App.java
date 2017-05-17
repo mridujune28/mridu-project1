@@ -1,9 +1,13 @@
 package com.codebind;
 
 public class App {
-  public String Sample() {
-	   //print the below string
-	  //Added another comment
-       return "Sample String";
-   }
-}
+  public String concatenate(String one, String two) 
+  {
+	  return one + two;
+  }
+	  
+	  public int multiply(int number1,int number2)
+	  {
+		  return number1*number2;
+	  }
+  }	  
