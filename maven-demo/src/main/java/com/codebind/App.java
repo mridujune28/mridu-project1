@@ -10,5 +10,6 @@ public class App {
 	  {
 		  return number1*number2;
 		  //returns the result
+		  //comment
 	  }
   }	  
