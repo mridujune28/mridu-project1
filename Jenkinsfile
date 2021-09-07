@@ -26,9 +26,4 @@ stages {
         }
     }
 }
-
-def notifyBuild(String buildStatus = 'started') {
-    buildStatus = buildStatus ?: 'successful'
-}
-}
     
