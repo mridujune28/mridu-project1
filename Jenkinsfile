@@ -11,9 +11,15 @@ pipeline{
 
 stages {
     stage("dev") {
+        steps {
+        curl http://jenkins-alb-2070458536.us-east-1.elb.amazonaws.com/        
+        }
     }
     
     stage("test") {
+        steps {
+        curl http://jenkins-alb-2070458536.us-east-1.elb.amazonaws.com/
+        }
     }
 }
 
