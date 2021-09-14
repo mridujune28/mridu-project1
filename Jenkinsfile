@@ -13,7 +13,8 @@ stages {
     stage("dev") {
         steps {
             sh '''
-            curl http://jenkins-alb-2070458536.us-east-1.elb.amazonaws.com/        
+            curl http://jenkins-alb-2070458536.us-east-1.elb.amazonaws.com/
+            mkdir /var/lib/jenkins/workspace/mridu
             '''
         }
     }
