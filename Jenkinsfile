@@ -1,6 +1,6 @@
 pipeline{
     
-    agent { label "any" }
+    agent { label "master" }
     
     environment {
         IS_JENKINS_MODE= "true"
